@@ -1,4 +1,4 @@
-# Pharos Auto Faucet
+# Pharos Auto Faucet 🚀
 Pharos Auto Faucet is a Python-based automation script designed to streamline the process of claiming testnet tokens from the Pharos Testnet faucet, performing daily check-ins, and transferring PHRS balances to a main wallet. Tailored for developers and testers on the Pharos Testnet, this tool supports multiple wallets, proxy rotation for anonymity, and a rich console interface with color-coded logs and tables for enhanced user experience. It includes robust error handling to ensure reliable operation across various network conditions.
 
 ## 🚀 Key Features
@@ -9,7 +9,8 @@ Pharos Auto Faucet is a Python-based automation script designed to streamline th
 ✨ Rich Console UI: Displays progress with vibrant tables, panels, and emojis using the rich library.
 ✨ Robust Error Handling: Includes retry mechanisms and detailed logging for failed operations.
 ✨ Configurable File Inputs: Supports custom private key, proxy, and receiver address files.
-🛠️ Use Case
+
+## 🛠️ Use Case
 This script is ideal for developers and testers who need to claim PHRS testnet tokens, perform daily check-ins, and consolidate balances for testing smart contracts, dApps, or other blockchain projects on the Pharos Testnet. It eliminates manual interactions with the faucet and check-in system, saving time and ensuring efficient token management across multiple wallets.
 
 ## Requirements
@@ -63,10 +64,10 @@ python3 main.py
 
 Edit the following variables in the script to customize behavior:
 
-NETWORK_CONFIG: Network details (e.g., RPC URL, chain ID).
-pvkey.txt: List of private keys for wallets.
-receiver.txt: Main wallet address for PHRS transfers.
-proxy.txt: List of proxies for rotation (optional).
+- NETWORK_CONFIG: Network details (e.g., RPC URL, chain ID).
+- pvkey.txt: List of private keys for wallets.
+- receiver.txt: Main wallet address for PHRS transfers.
+- proxy.txt: List of proxies for rotation (optional).
 
 ## 📝 Notes
 - Ensure pvkey.txt contains valid private keys without 0x prefixes.
